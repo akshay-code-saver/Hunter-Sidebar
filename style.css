@@ -8,7 +8,7 @@
 
 body{
     margin:0;
-    overflow:hidden;
+    overflow:auto;
     font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
     background:#050000;
 }
@@ -31,11 +31,14 @@ body{
     opacity:0;
     visibility:hidden;
 
+    background:#090102;
+
+    overflow-y:auto;
+    overflow-x:hidden;
+
     transition:
         opacity .8s ease,
         visibility .8s;
-
-    background:#090102;
 }
 
 /* JS adds this */
